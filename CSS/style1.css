@@ -1,0 +1,160 @@
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1 {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    line-height: 1;
+    font-size: 3rem;
+    padding-bottom: 2.5%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+}
+
+h5 {
+    font-size: 1.2rem;
+    padding-top: 1%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.img-fluid {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    opacity: 0.50;
+    z-index: -1;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+.dwnld-btn {
+    margin: 5% 3% 5% 0;
+}
+
+#title {
+    color: #fff;
+    background-color: black;
+    opacity: 98%;
+}
+
+.container-fluid {
+    padding: 3% 15% 5%;
+}
+
+.title-img {
+    height: 60%;
+    width: 30%;
+    position: absolute;
+    right: 12%;
+    border-radius: 5%
+}
+
+#features {
+    padding: 7% 15%;
+    /* Things that can be done by margin + width, can be done by using padding */
+    position: relative;
+    background-color: #fff;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #55835d;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.work-img {
+    height: 230px;
+    width: 96%;
+    border-radius: 13%;
+    margin: 4% 0%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    margin: 3% 2%;
+}
+
+@media (max-width : 989px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+}
+
+#cta {
+    background-color: #756565;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15% 5%;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.foot-icon {
+    width: 10%;
+    margin: 20px -22px;
+}
